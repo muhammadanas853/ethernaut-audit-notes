@@ -3,7 +3,7 @@ pragma solidity ^0.8.0; // test ke liye latest compiler, contract 0.6 hai
 
 import {Test} from "forge-std/Test.sol";
 import {Token} from "../src/Token.sol";
-
+import {console} from "forge-std/console.sol";
 contract TokenTest is Test {
     Token token;
     address attacker;
